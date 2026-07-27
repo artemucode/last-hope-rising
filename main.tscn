@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://ckr43pwy27oyv"]
+
+[ext_resource type="PackedScene" uid="uid://5ag1gbh3408q" path="res://platform.tscn" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://ccfbim0vd5lya" path="res://player.tscn" id="2_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=896547908]
+
+[node name="Player" parent="." unique_id=1642963908 instance=ExtResource("2_h2yge")]
+position = Vector2(39, 549)
+
+[node name="Platform" parent="." unique_id=764047759 instance=ExtResource("1_0xm2m")]
+position = Vector2(32, 616)
+
+[node name="Platform2" parent="." unique_id=1428103709 instance=ExtResource("1_0xm2m")]
+position = Vector2(104, 616)
+
+[node name="Platform3" parent="." unique_id=2037421336 instance=ExtResource("1_0xm2m")]
+position = Vector2(176, 616)
+
+[node name="Platform4" parent="." unique_id=1224493218 instance=ExtResource("1_0xm2m")]
+position = Vector2(248, 616)
+
+[node name="Platform5" parent="." unique_id=131906222 instance=ExtResource("1_0xm2m")]
+position = Vector2(320, 616)
+
+[node name="Platform6" parent="." unique_id=1077825232 instance=ExtResource("1_0xm2m")]
+position = Vector2(392, 584)
+
+[node name="Platform7" parent="." unique_id=553561376 instance=ExtResource("1_0xm2m")]
+position = Vector2(464, 584)
+
+[node name="Platform8" parent="." unique_id=1990136717 instance=ExtResource("1_0xm2m")]
+position = Vector2(536, 552)
+
+[node name="Platform9" parent="." unique_id=1738244751 instance=ExtResource("1_0xm2m")]
+position = Vector2(608, 552)
+
+[node name="Platform10" parent="." unique_id=1209686744 instance=ExtResource("1_0xm2m")]
+position = Vector2(680, 576)
+
+[node name="Platform11" parent="." unique_id=1015532237 instance=ExtResource("1_0xm2m")]
+position = Vector2(752, 576)
+
+[node name="Platform12" parent="." unique_id=1631924433 instance=ExtResource("1_0xm2m")]
+position = Vector2(824, 576)
+
+[node name="Platform13" parent="." unique_id=739114307 instance=ExtResource("1_0xm2m")]
+position = Vector2(896, 608)
+
+[node name="Platform14" parent="." unique_id=1561152544 instance=ExtResource("1_0xm2m")]
+position = Vector2(968, 608)
+
+[node name="Platform15" parent="." unique_id=542531972 instance=ExtResource("1_0xm2m")]
+position = Vector2(1040, 616)
+
+[node name="Platform16" parent="." unique_id=1042990492 instance=ExtResource("1_0xm2m")]
+position = Vector2(1112, 616)

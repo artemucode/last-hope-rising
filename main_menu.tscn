@@ -57,15 +57,7 @@ theme_override_font_sizes/font_size = 31
 theme_override_styles/normal = SubResource("StyleBoxFlat_0pte5")
 text = "Start Game"
 
-[node name="Button2" type="Button" parent="VBoxContainer" unique_id=115718414]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_colors/font_color = Color(0.0093103545, 0.0093103545, 0.0093103545, 1)
-theme_override_font_sizes/font_size = 31
-theme_override_styles/normal = SubResource("StyleBoxFlat_0pte5")
-text = "Options"
-
-[node name="Button3" type="Button" parent="VBoxContainer" unique_id=1049046535]
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=1049046535]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0.0093103545, 0.0093103545, 0.0093103545, 1)
@@ -95,5 +87,4 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_settings_pressed"]
-[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_exit_pressed"]
