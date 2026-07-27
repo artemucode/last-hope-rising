@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b2nepv4v2ya5h"]
 
-[ext_resource type="Texture2D" uid="uid://ca6dpsqjjqflo" path="res://Sprites/fone.jpg" id="1_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://ca6dpsqjjqflo" path="res://textures/fone.jpg" id="1_7vrkn"]
 [ext_resource type="Script" uid="uid://c8u81adlyk2gf" path="res://main_menu.gd" id="1_fu7sn"]
 [ext_resource type="FontFile" uid="uid://dl5edxxaipqto" path="res://Fonts/GorditasBold.ttf" id="2_fu7sn"]
 
