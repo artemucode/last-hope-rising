@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+/android/
+
+# Временные файлы Godot (автоматически создаются движком)
+.godot/
+.import/
+
+# Экспортные сборки (бинарники игры)
+*.html
+*.js
+*.wasm
+*.pck
+*.apk
+*.exe
+*.zip
+
+# Локальные настройки пользователя
+export_presets.cfg

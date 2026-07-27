@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://ccfbim0vd5lya"]
+
+[ext_resource type="Texture2D" uid="uid://c1jty2i3era3i" path="res://Sprites/person.png" id="1_4flbx"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1642963908]
+
+[node name="Person" type="Sprite2D" parent="." unique_id=1953035836]
+scale = Vector2(0.355, 0.355)
+texture = ExtResource("1_4flbx")
