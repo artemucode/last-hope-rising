@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://b2nepv4v2ya5h"]
 
-[ext_resource type="Texture2D" uid="uid://ca6dpsqjjqflo" path="res://textures/fone.jpg" id="1_7vrkn"]
 [ext_resource type="Script" uid="uid://c8u81adlyk2gf" path="res://main_menu.gd" id="1_fu7sn"]
 [ext_resource type="FontFile" uid="uid://dl5edxxaipqto" path="res://Fonts/GorditasBold.ttf" id="2_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://bjr6r3nq7qrdv" path="res://textures/icon4.png" id="2_jix8l"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j66xd"]
-texture = ExtResource("1_7vrkn")
-modulate_color = Color(0.24104936, 0.24104936, 0.24104936, 1)
+texture = ExtResource("2_jix8l")
+modulate_color = Color(0.91593456, 0.91593456, 0.91593456, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0pte5"]
 corner_radius_top_left = 16
